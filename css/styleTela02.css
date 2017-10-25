@@ -1,0 +1,33 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	background-color: #0093FA;
+}
+
+span{
+	color:white;
+	text-align: left;
+	font-size:40px;
+
+}
+
+a{
+	border-color:white;
+	text-decoration: none;
+	color:white;
+	font-size:18px;
+
+}
+
+header div{
+	width: 50%;
+	text-align: center;
+	float:left;
+
+}
+
+
+
