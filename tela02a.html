@@ -11,25 +11,31 @@
 			font-family: helvetica, sans-serif;
 		}
 
+		main {
+			padding: 20px;
+		}
+
 		form {
 			width: 100%;
+			max-width: 500px;
+			margin: 0 auto;
 		}
 
 		input {
 			display: block;
 			margin: 0 auto;
-			margin-bottom: 20px;
 			border: none;
 			background-color: transparent;
-			border-bottom: 1px solid #fff;
-			padding-bottom: 5px;
+			border-bottom: 1px solid rgba(255, 255, 255, 0.62);
+			padding-bottom: 15px;
+			margin-bottom: 20px;
 			color: #fff;
 			font-family: 'Roboto', sans-serif;
 			width: 100%;
 		}
 
 		input::placeholder {
-			color: #fff;
+			color: rgba(255, 255, 255, 0.82);
 			text-transform: uppercase;
 			font-family: 'Roboto', sans-serif;
 		}
@@ -38,22 +44,31 @@
 			background-color: #fff;
 			width: 100%;
 			border: none;
-			padding: 18px;
+			padding: 14px;
 			color: #0093fa;
 			margin: 10px 0;
 			font-size: 15px;
 			border-radius: 50px;
 		}
+
+		p {
+			text-align: center;
+			color: #3c3c3c;
+	    font-size: 80%;
+	    padding: 0 14px;
+		}
 	</style>
 </head>
 <body>
 
-	<form>
-		<input type="text" name="username" placeholder="username">
-		<input type="text" name="email" placeholder="email">
-		<input type="password" name="password" placeholder="password">
-		<button class="btn" type="submit">Sign Up</button>
-	</form>
+	<main>
+		<form>
+			<input type="text" name="username" placeholder="username">
+			<input type="text" name="email" placeholder="email">
+			<input type="password" name="password" placeholder="password">
+			<button class="btn" type="submit">Sign Up</button>
+		</form>
+	</main>
 
 	<p>By creating an account you are agreeing to Ecorate's User Agreement</p>
 </body>
