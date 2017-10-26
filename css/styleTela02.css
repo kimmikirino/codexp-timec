@@ -90,6 +90,9 @@ header div{
 	padding-left: 20px;
 }
 
+i {
+    margin-right: 10px;
+}
 .google {
 	margin-left: 20px;
 }
@@ -115,7 +118,7 @@ p {
     font-size: 80%;
     padding: 0 14px;
     position:relative;
-	top:60px;
+	top:180px;
 }
 
 
