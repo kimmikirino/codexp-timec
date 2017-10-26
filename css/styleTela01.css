@@ -2,17 +2,19 @@
   margin: 0;
   padding: 0;
     /* background-color: #C7E2F7; */
+  background-color: #0093FA;
 }
 
 .container {
-  width: 50%;
-  height: 40%;
-  position: absolute;
-  top: 20%;
-  left: 15%;
-  padding: 10%;
-  background-color: #0093FA;
-  font-family: Verdana, Sans-Serif;
+    width: 83%;
+    height: 40%;
+    position: absolute;
+    top: 20%;
+    left: -2%;
+    padding: 10%;
+    background-color: #0093FA;
+    font-family: Verdana, Sans-Serif;
+    margin: 0 auto;
 }
 
 .form-input {
@@ -64,11 +66,21 @@ input {
   margin-right: 5px;
   background-color: #FFF;
   color: #0093FA;
+  font-family: Verdana, Sans-Serif;
 }
 
 .btn-signup {
   margin-left: 5px;
   background-color: #0093FA;
   color: #FFF;
+  font-family: Verdana, Sans-Serif;
+  font-size: 13px;
 }
 
+img {
+    width: 41%;
+    max-width: 200px;
+    margin: 0 auto;
+    position: relative;
+    left: 27%;
+}
