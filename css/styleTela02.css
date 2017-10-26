@@ -1,0 +1,46 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	background-color: #0093FA;
+}
+
+span{
+	color:white;
+	text-align: left;
+	font-size:40px;
+
+
+}
+
+a{
+	border-color:white;
+	text-decoration: none;
+	color:white;
+	font-size:18px;
+	border-size:1em;
+	border-color: white;
+	border-style:solid;
+	padding: 1em;
+	border-radius: 35%;
+
+}
+
+header div{
+	width: 50%;
+	text-align: center;
+	float:left;
+	height: 20%;
+
+
+}
+
+#botaoVoltar{
+	width: 100%;
+	height: 20%;
+}
+
+
+
