@@ -61,7 +61,7 @@ header .fa.pull-right {
 }
 
 .slider__paisagem {
-	max-height: 500px;
+	height: 500px;
 	display: block;
 	width: 100%;
 	position: absolute;
