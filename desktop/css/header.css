@@ -8,9 +8,9 @@
 header .nav-menu-bar__name {
 	text-transform: uppercase;
 	display: inline-block;
-    margin-top: 17px;
-    letter-spacing: 5px;
-    margin-left: 10px;
+		margin-top: 17px;
+		letter-spacing: 5px;
+		margin-left: 10px;
 }
 
 header .fa-files-o, header .fa-bars, header .fa-search {
@@ -31,7 +31,15 @@ header .fa-files-o {
 }
 
 header .fa.pull-right {
-    margin-left: 0;
+		margin-left: 0;
+}
+
+.nav-menu-bar a {
+	color: #fff;
+}
+
+.nav-menu-bar__bars {
+
 }
 
 .pull-left {
@@ -41,3 +49,99 @@ header .fa.pull-right {
 .pull-right {
 	float: right;
 }
+
+.slider {
+	height: 500px;
+	margin-top: -3px;
+	color: #fff;
+}
+
+.slider a {
+	text-decoration: none;
+}
+
+.slider__paisagem {
+	max-height: 500px;
+	display: block;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+}
+
+.slider__overlay {
+	position: absolute;
+	z-index: 2;
+	background-color: rgba(24, 109, 138, 0.62);
+	height: 100%;
+	max-height: 500px;
+	text-align: center;
+	width: 100%;
+}
+
+.slider__overlay h1 {
+	text-transform: uppercase;
+	margin: 30px 0;
+	font-weight: normal;
+	font-size: 40px;
+}
+
+.slider__overlay__content {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.slider__overlay__description {
+	font-size: 12px;
+
+}
+
+.slider__buttons {
+	padding: 30px 0;
+	margin-top: 100px;
+}
+
+.slider__overlay__content__btn {
+	color: rgba(24, 109, 138, 0.9);
+	background-color: #fff;
+	padding: 8px;
+	font-size: 12px;
+	margin: 5px;
+}
+
+.menu-central {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	padding: 40px 0;
+}
+
+.menu-central a {
+	text-decoration: none;
+	color: #b7b7b7;
+	margin: 0 10px;
+}
+
+.menu-central a .fa {
+	border: 1px solid #c3c3c3;
+	padding: 11px;
+	border-radius: 100%;
+	margin-right: 10px;
+	text-align: center;
+	font-size: 12px;
+	width: 35px;
+	height: 35px;
+}
+
+.menu-central a .fa.fa-play {
+	padding-right: 9px;
+	font-size: 11px;
+}
+
+.menu-central a .fa.fa-volume-off {
+	font-size: 15px;
+	padding: 9px;
+}
+.menu-central__label {
+	text-transform: uppercase;
+}
+
