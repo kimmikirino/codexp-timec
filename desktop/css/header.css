@@ -108,6 +108,42 @@ header .fa.pull-right {
 	margin: 5px;
 }
 
+.slider__overlay__box-left {
+	position: absolute;
+	top: 0;
+	left: 0px;
+	width: 0;
+	height: 0;
+	border-top: 150px solid rgba(255, 255, 255, 0.15);
+	border-right: 150px solid transparent;
+}
+
+.slider__overlay__box-right {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 0;
+	height: 0;
+	border-bottom: 150px solid rgba(255, 255, 255, 0.3);
+	border-left: 150px solid transparent;
+}
+
+.slider__overlay__chevron-left, .slider__overlay__chevron-right {
+	position: absolute;
+	color: rgba(24, 109, 138, 0.9);
+	font-size: 25px;
+}
+
+.slider__overlay__chevron-left {
+	top: 30px;
+	left: 30px;
+}
+
+.slider__overlay__chevron-right {
+	bottom: 30px;
+	right: 30px;
+}
+
 .menu-central {
 	margin: 0 auto;
 	width: 100%;
