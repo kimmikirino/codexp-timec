@@ -1,6 +1,6 @@
 .nav-menu-bar {
 	display: inline-block;
-	background-color: black;
+	background-color: #272727;
 	color: #fff;
 	width: 100%;
 }
@@ -8,9 +8,9 @@
 header .nav-menu-bar__name {
 	text-transform: uppercase;
 	display: inline-block;
-		margin-top: 17px;
-		letter-spacing: 5px;
-		margin-left: 10px;
+	margin-top: 17px;
+	letter-spacing: 5px;
+	margin-left: 10px;
 }
 
 header .fa-files-o, header .fa-bars, header .fa-search {
