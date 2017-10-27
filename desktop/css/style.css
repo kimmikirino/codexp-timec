@@ -1,9 +1,17 @@
 *{
 	margin: 0px;
 	padding: 0px;
-
+	box-sizing: border-box;
+	font-family: verdana;
 }
 
 body{
-	background-color: violet;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
 }

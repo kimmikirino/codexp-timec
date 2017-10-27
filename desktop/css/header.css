@@ -1,0 +1,35 @@
+.nav-menu-bar {
+	display: inline-block;
+	background-color: black;
+	color: #fff;
+	width: 100%;
+}
+
+header .nav-menu-bar__name {
+	text-transform: uppercase;
+	display: inline-block;
+    margin-top: 17px;
+    letter-spacing: 5px;
+    margin-left: 10px;
+}
+
+header .fa-files-o, header .fa-bars, header .fa-search {
+	padding: 20px;
+	margin: 0;
+}
+header .fa-bars {
+	background-color: #fff;
+	color: black;
+}
+
+header .fa-search {
+	background-color: #3890ac;
+}
+
+header .fa-files-o {
+	background-color: #52bcb8;
+}
+
+header .fa.pull-right {
+    margin-left: 0;
+}
