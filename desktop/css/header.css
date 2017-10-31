@@ -1,3 +1,10 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: verdana;
+}
+
 .nav-menu-bar {
 	display: inline-block;
 	background-color: #272727;
