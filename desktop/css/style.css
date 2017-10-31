@@ -31,14 +31,33 @@ main{
 
 }
 
-.header-card i{
+.header-card span{
+	color:white;
+	position:relative;
+	bottom: 41px;
+	left: -183px;
+	font-weight: bolder;
+
+}
+
+.header-i{
 	position:absolute;
-	top:2px;
-	left:2px;
-	background-color: #56bbbb;
+	top:0px;
+	left:0px;
 	padding:10px;
 	color:white;
 	margin:0px;
+
+	
+}
+
+.play-header{
+	width: 0;
+	height: 0;
+	border-top: 50px solid #56bbbb;
+	border-right: 50px solid transparent;
+	position: absolute;
+	top: 0px;
 }
 
 
@@ -48,8 +67,9 @@ main{
 }
 
 .main-card h1 {
- 	text-align: center;
+ 	text-align: left;
  	color:#989898;
+	margin:15px; 
 }
 .main-card header{
 	margin-top: 1em;
@@ -68,12 +88,18 @@ main{
 
 }
 
-.main-card span{
-	color:#56bbbb;
+.main-card a{
 	text-align: center;
 	font-weight: bolder;
+	text-decoration: none;
 
 }
+
+.main-card footer span{
+	color:#56bbbb;
+}
+
+
 
 
 .footer-card{
