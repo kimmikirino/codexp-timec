@@ -76,7 +76,7 @@ main{
 .footer-card ul{
 	list-style-type: none;
 	position:relative;
-	top:22px;
+	top:13px;
 
 }
 
@@ -86,13 +86,15 @@ main{
 }
 
 .footer-card i,span{
-	padding-right: 13px;
-	padding-left: 13px;
+	padding-right: 5px;
+	padding-left: 5px;
 	color:#989898;
 }
 
 .footer-card i{
-	font-size:20px;
+	font-size:25px;
+	position:relative;
+	top:9px;
 }
 
 
