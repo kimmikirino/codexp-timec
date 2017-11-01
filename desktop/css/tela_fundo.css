@@ -1,0 +1,83 @@
+*{
+	  margin: 0;
+	  padding: 0;
+	  box-sizing: border-box;
+}
+
+.main_ct{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background: rgb(235, 235, 235);
+}
+
+.filter_main{
+  display: inline-block;
+  position: relative;
+  height: 60px;
+  width: 65%;
+}
+
+.filter_button{
+  position: absolute;
+  margin-top: 40px;
+  border-top: 25px solid rgb(87, 188, 184);
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 60px;
+}
+
+.filter{
+  font-family: Verdana;
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 44px;
+  font-size: 10px;
+  color: white;
+}
+
+.catalogo_main{
+  display: inline-block;
+  padding-left: 0;
+  position: relative;
+  height: 60px;
+  width: 30%;
+}
+
+.catalogo_button{
+  position: absolute;
+  margin-top: 40px;
+  border-top: 25px solid rgb(218, 218, 218);
+	border-right: 25px solid transparent;
+	margin-right: 10px;
+	height: 0;
+	width: 60px;
+}
+
+.catalogo{
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  margin-top: 44px;
+  margin-left: 13px;
+}
+
+.menu{
+  position: absolute;
+  margin-left: 35px;
+  margin-top: 40px;
+  padding-left: 30px;
+  border-bottom: 25px solid rgb(255, 255, 255);
+	border-left: 25px solid transparent;
+	height: 0;
+	width: 60px;
+}
+
+.menu_button{
+  position: absolute;
+  text-decoration: none;
+  font-size: 17px;
+  color: rgb(87, 188, 184);
+  margin-top: 44px;
+  margin-left: 68px;
+}
