@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Wireframe</title>
+	<style>
+		#menu-hide
+		{
+		  display: block;
+		  width: 40px;
+		  height: 32px;
+		  position: absolute;
+		  top: -7px;
+		  left: -5px;
+		  cursor: pointer;
+		  
+		  opacity: 0; /* hide this */
+		  z-index: 3; /* and place it over the hamburger */
+		  
+		  -webkit-touch-callout: none;
+		}
+
+		@media(max-width: 778px) {
+			.menu ul
+			{
+			  position: absolute;
+			  width: 300px;
+			  margin: -100px 0 0 -50px;
+			  padding: 50px;
+			  padding-top: 125px;
+			  
+			  background: #ededed;
+			  list-style-type: none;
+			  -webkit-font-smoothing: antialiased;
+			  /* to stop flickering of text in safari */
+			  
+			  transform-origin: 0% 0%;
+			  transform: translate(-100%, 0);
+			  
+			  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+			}
+
+			.menu ul li {
+				transition: color 0.3s ease;
+			}
+		}
+
+		.menu li
+		{
+		}
+
+		#menu-hide:checked ~ ul
+		{
+		  	transform: none;
+		  	z-index: 2;
+			margin: -18px 0;
+			color: pink;
+			padding: 23px;
+		}
+
+		#menu-hide:checked ~ ul li
+		{
+	  	    z-index: 11;
+		    color: blue;
+		    display: block;
+		    padding: 10px 0;
+		  	font-size: 22px;
+		}
+
+		
+	</style>
+</head>
+<body>
+
+<header>
+	<nav class="menu">
+		<img src="" class="menu-logotipo">
+		<input type="checkbox" id="menu-hide" />
+		<ul>
+			<li>Início</li>
+			<li>Patrocinadores</li>
+			<li>Sobre a Empresa</li>
+			<li>Contatos</li>
+			<li>Eventos</li>
+
+		</ul>
+
+		<i class="fa fa-bars" aria-hidden="true"></i>
+
+	</nav>
+
+</header>
+
+
+	
+</body>
+</html>
