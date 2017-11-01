@@ -20,12 +20,24 @@ header{
 	height: 100%;
 	width: 100%;
 }
+.menu img{
+	width: 8%;
+	float:left;
+	height: 20%;
+	background-size: cover;
+	margin: 1em;
+}
+.menu ul{
+	width: 87%;
+	float:left;
+	margin-top: 37px;
+}
 
 .menu li{
 	list-style-type: none;
 	color:white;
 	display:inline;
-	padding: 2em;
+	padding: 3em 5em;
 	font-weight:bolder;
 }
 
@@ -35,7 +47,7 @@ header{
 
 
 
-@media(max-width: 778px) {
+@media(max-width: 1424px) {
 
 	.menu li{
 		display: none;
