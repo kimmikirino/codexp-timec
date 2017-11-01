@@ -5,10 +5,19 @@ body {
 
 .galeria {
 	text-align: center;
+  margin: 20px 0;
 }
 
 .galeria__h3, .galeria__p {
 	color: #818181;
+}
+
+.galeria__h3 {
+  padding-bottom: 10px;
+}
+
+.galeria__p {
+  padding: 0 10px;
 }
 
 .galeria__videos {
@@ -19,7 +28,7 @@ body {
 
 .galeria__videos iframe {
 	width: 200px;
-  	height: 100px;
+  height: 100px;
 	margin-top: 20px;
 	margin-right: 10px;
 	border-style: none; 
@@ -27,21 +36,39 @@ body {
 
 
 
+@media screen and (min-width: 360px) {
+
+  .galeria__videos {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .galeria__videos iframe {
+    width: 100%;
+    height: 200px;
+    max-width: 354px;
+    padding: 10px 20px;
+    margin: 0;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .galeria__videos iframe {
-  	width: 100px;
-  	height: 50px;
+    width: 200px;
+    height: 150px;
+  }
+
+  .galeria__videos {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 800px;
   }
 }
 
-@media screen and (min-width: 360px) {
-  .galeria__videos iframe {
-  	width: 200px;
-  	height: 150px;
-  }
-}
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1100px) {
   .galeria__videos iframe {
   	width: 250px;
   	height: 150px;
