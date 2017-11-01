@@ -21,15 +21,14 @@ header{
 	width: 100%;
 }
 .menu img{
-	width: 8%;
+	width: 43px;
 	float:left;
-	height: 20%;
+	height: 43px;
 	background-size: cover;
 	margin: 1em;
 }
 .menu ul{
-	width: 87%;
-	float:left;
+	float:right;
 	margin-top: 37px;
 }
 
@@ -37,7 +36,7 @@ header{
 	list-style-type: none;
 	color:white;
 	display:inline;
-	padding: 3em 5em;
+	padding: 3em 1em;
 	font-weight:bolder;
 }
 
@@ -47,21 +46,21 @@ header{
 
 
 
-@media(max-width: 1424px) {
+@media(max-width: 767px) {
 
 	.menu li{
 		display: none;
 	}
 
 	.menu i{
-	color:white;
-	margin-right: 1em;
-	border-color:white;
-	display:block;
-	text-align: right;
-	font-size: 40px;
-
-}
+		color:white;
+		margin-right: 1em;
+		border-color:white;
+		display:block;
+		text-align: right;
+		font-size: 40px;
+	    padding-top: 18px;
+	}
 
 	
 }
