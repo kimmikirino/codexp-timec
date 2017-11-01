@@ -12,10 +12,11 @@
 }
 
 .filter_main{
-  display: inline-block;
-  position: relative;
+  position: absolute;
   height: 60px;
   width: 65%;
+  top: 0;
+  left: 0;
 }
 
 .filter_button{
@@ -39,9 +40,10 @@
 .catalogo_main{
   display: inline-block;
   padding-left: 0;
-  position: relative;
+  position: absolute;
   height: 60px;
-  width: 30%;
+  top: 0;
+  right: calc(26% + 13px);
 }
 
 .catalogo_button{
@@ -58,7 +60,7 @@
   position: absolute;
   text-decoration: none;
   color: white;
-  margin-top: 44px;
+  margin-top: 43px;
   margin-left: 13px;
 }
 
@@ -78,6 +80,41 @@
   text-decoration: none;
   font-size: 17px;
   color: rgb(87, 188, 184);
-  margin-top: 44px;
+  margin-top: 43px;
   margin-left: 68px;
+}
+
+.middle-area {
+  position: relative;
+}
+
+.menu-bottom {
+  display: inline-block;
+  padding-left: 0;
+  position: absolute;
+  height: 60px;
+  bottom: 20px;
+  left: 46%;
+  font-size: 15px;
+}
+
+.menu-bottom .menu{ 
+  margin-left: 115px;
+  width: 140px;
+}
+
+.menu-bottom .catalogo_button{ 
+  width: 123px;
+  border-top-color: #f6f6f6; 
+  color: rgb(87, 188, 184);
+}
+
+.menu-bottom .menu_button{ 
+  margin-left: 146px;
+  font-size: 15px;
+  color: rgb(87, 188, 184);
+}
+
+.menu-bottom .catalogo{ 
+  color: rgb(87, 188, 184);
 }
