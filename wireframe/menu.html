@@ -10,20 +10,19 @@
 		#menu-hide
 		{
 		  display: block;
-		  width: 40px;
-		  height: 32px;
-		  position: absolute;
-		  top: -7px;
-		  left: -5px;
-		  cursor: pointer;
-		  
-		  opacity: 0; /* hide this */
-		  z-index: 3; /* and place it over the hamburger */
+		    width: 43px;
+		    height: 41px;
+		    position: absolute;
+		    top: 16px;
+		    right: 35px;
+		    cursor: pointer;
+		    opacity: 0;
+		    z-index: 3;
 		  
 		  -webkit-touch-callout: none;
 		}
 
-		@media(max-width: 778px) {
+		@media(max-width: 768px) {
 			.menu ul
 			{
 			  position: absolute;
@@ -38,7 +37,9 @@
 			  /* to stop flickering of text in safari */
 			  
 			  transform-origin: 0% 0%;
-			  transform: translate(-100%, 0);
+			  transform: translate(100%, 0);
+			  right: 0;
+
 			}
 
 			.menu ul li {
@@ -56,6 +57,7 @@
 		  	z-index: 2;
 			margin: -18px 0;
 			padding: 23px;
+		    transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 		    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 		}
 
@@ -76,7 +78,7 @@
 
 <header>
 	<nav class="menu">
-		<img src="logo.png" class="menu-logotipo">
+		<img src="imagens/logo.png" class="menu-logotipo">
 		<input type="checkbox" id="menu-hide" />
 		<ul>
 			<li>Início</li>
