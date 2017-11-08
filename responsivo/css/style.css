@@ -12,43 +12,43 @@ header{
 }
 
 .logotipo{
-	width: 20%;
+	width: 20vw;
 	height:100%;
 	float:left;
-	position:relative;
 	border-color:black;
 	border-width:1px;
 	border-style: solid;
 	padding: 0em 1.5em;
+	
+	
+	
 }
 
 .logotipo img{
-	width:97%;
-	height: 97%;
+	max-width:266.8px;
+	height: 147px;
 	border-radius: 50%;
 	border-color:black;
 	border-width:2px;
 	border-style: dashed;
-	padding: 2em;
-	
+	padding: 1em;
+	margin: 0px 13px;
 
+	width: 20vw;
+	height:100%;
 }
 
 
 .menu{
-	width: 80%;
+	width: 80vw;
 	height:100%;
-	float:left;
-	position:relative;
+	float:right;
 	
-	
-
 }
 
 .menu nav{
 	width: 80%;
 	height:70%;
-	position:relative;
 	padding: 1em 0em;
 	margin:0px auto;
 }
@@ -72,7 +72,7 @@ header{
 
 .menu li{
 	display:inline;
-	padding: 1em 4em;
+	padding: 1em 5em;
 	text-align: center;
 	
 }
@@ -80,10 +80,10 @@ header{
 .menu span{
 	color:red;
 	text-align: center;
-	position:relative;
 	width: 100%;
 	height:100%;
-	left:7em;
+	left:11em;
+	position:relative;
 
 
 }
@@ -93,7 +93,7 @@ header{
 	border-right-width: 5px;
 }
 
-@media(max-width: 1267px) {
+@media(max-width: 1460px) {
 	.menu ul{
 		display:block;
 		border-style:none;
@@ -113,12 +113,26 @@ header{
 
 	.menu span{
 		margin:0em;
+		left:0em;
 	}
-	.menu  .menu nav  .menu span{
-		height: auto;
-		width:auto;
+
+	.logotipo img{
+		margin: 0px calc(13px - 2.3em);
 	}
 
 }
 
 
+@media(max-width: 636px) {
+
+	header{
+		width: 100%;
+		height:254px;
+	}
+	.menu nav{
+		width:auto;
+		height: auto;
+	}
+
+
+}
