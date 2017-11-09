@@ -6,50 +6,52 @@
 
 header{
 	width: 100%;
-	height:150px;
-	position:absolute;
+	padding:20px;
+	
 
+}
+body{
+	background-color: #e8e8e8;
+	font-family: Helvetica;
 }
 
 .logotipo{
-	width: 20vw;
-	height:100%;
-	float:left;
-	border-color:black;
-	border-width:1px;
-	border-style: solid;
-	padding: 0em 1.5em;
-	
+	width: 35%;
+	padding: 0.4em;
+	display: inline-block;
+	background-color:white;
+	box-shadow: 1px 1px 15px #ccc;
+	vertical-align: middle;
 	
 	
 }
 
 .logotipo img{
 	max-width:266.8px;
-	height: 147px;
+	width: 100%;
 	border-radius: 50%;
 	border-color:black;
 	border-width:2px;
 	border-style: dashed;
-	padding: 1em;
-	margin: 0px 13px;
+	padding: 0.4em;
+	
 
-	width: 20vw;
-	height:100%;
+	
+
 }
 
 
 .menu{
-	width: 80vw;
-	height:100%;
-	float:right;
+	width: 65%;
+	
+	display: inline-block;
+	vertical-align: middle;
 	
 }
 
 .menu nav{
 	width: 80%;
 	height:70%;
-	padding: 1em 0em;
 	margin:0px auto;
 }
 
@@ -72,18 +74,20 @@ header{
 
 .menu li{
 	display:inline;
-	padding: 1em 5em;
+	padding: 0em;
 	text-align: center;
+	margin:10px 0px;
+
+	
 	
 }
 
-.menu span{
-	color:red;
+.header-span{
+	color:#ed957A;
 	text-align: center;
-	width: 100%;
-	height:100%;
-	left:11em;
-	position:relative;
+	display:block;
+	margin-top:10px;
+	
 
 
 }
@@ -116,9 +120,7 @@ header{
 		left:0em;
 	}
 
-	.logotipo img{
-		margin: 0px calc(13px - 2.3em);
-	}
+	
 
 }
 
@@ -127,7 +129,7 @@ header{
 
 	header{
 		width: 100%;
-		height:254px;
+		
 	}
 	.menu nav{
 		width:auto;
