@@ -10,7 +10,7 @@ body {
  }
 
 .tshirt-folder {
-	background-image: url('background-tshirt.jpg');
+	background-image: url('../imagens/background-tshirt.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
@@ -44,16 +44,16 @@ section .tshirt-descricao  {
 	width: 15%;
 }
 
-h2, h3, p {
+.tshirt-folder h2, .tshirt-folder h3, .tshirt-folder p {
 	color: #FFF;
 }
 
-h2 {
+.tshirt-folder h2 {
 	margin-top: 5%;
 	font-size: 32px;
 }
 
-h3 {
+.tshirt-folder h3 {
 	margin-top: 5%;
 	font-size: 26px;
 }
