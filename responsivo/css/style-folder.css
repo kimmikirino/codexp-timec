@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+  width: 100%;
+  font-family: helvetica, Sans-Serif;
+
+ }
+
+.tshirt-folder {
+	background-image: url('background-tshirt.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.tshirt-img {
+	display: block;
+	float: left;
+	width: 50%;
+}
+
+.tshirt-img img { /*camisa*/
+	width: 80%;
+	margin: 0 10%;
+}
+
+
+section .tshirt-descricao  {
+	width: 50%;
+	display: inline;
+	float: right;
+	height: 300px;
+	padding-right: 10%;
+	text-align: left;
+	color: #FFF;
+}
+
+.tshirt-votes img{
+	width: 15%;
+}
+
+h2, h3, p {
+	color: #FFF;
+}
+
+h2 {
+	margin-top: 5%;
+	font-size: 32px;
+}
+
+h3 {
+	margin-top: 5%;
+	font-size: 26px;
+}
+
+.tshirt-p {
+	font-size: 18px;
+	margin-top: 3%;
+}
+
+.tshirt-descricao h2, h3 {
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.tshirt-p {
+	font-size: 14px;
+}
+
+div .tshirt-details {
+	display: flex;
+	flex-direction: row;
+	margin-top: 3%;
+	width: 130px;
+	height: 40px;
+	background-color: #f1592a;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.tshirt-details a {
+	text-decoration: none;
+	color: #000;
+	margin: 12px 10px;
+}
+
+.tshirt-details i {
+	margin-left: 6px;
+}
+
+@media screen and (max-width: 768px) {
+	
+	.tshirt-folder {
+		background-size: cover;
+		background-position: 100% 100%;
+		width: 100%;
+		height: auto;
+		overflow: auto;
+	}
+
+	.tshirt-img {
+		display: block;
+		width: 100%;
+		padding-top: 3%;
+	}
+
+	section .tshirt-descricao  {
+		display: block;
+		width: 100%;
+		padding-left: 3%;
+		
+	}
+	
+	.tshirt-votes img {
+	  width: 15%;
+	  position: absolute;
+	  top: 0;
+	  right: 45px;
+	}
+} 
+
+@media screen and (min-width: 768px) {
+  
+}
+
