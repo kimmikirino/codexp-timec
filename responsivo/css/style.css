@@ -22,6 +22,10 @@ body{
 	background-color:white;
 	box-shadow: 1px 1px 15px #ccc;
 	vertical-align: middle;
+	max-width: 118.11px;
+	max-height: 107.41;
+
+
 	
 	
 }
@@ -92,49 +96,90 @@ body{
 
 }
 
-.menu li:not(#b){
+/* .menu li:not(#b){
 	border-right-style: dotted;
 	border-right-width: 5px;
+} */
+
+
+
+.menu ul{
+	display:block;
+	border-style:none;
+	border-width:0px;
+	padding: 0px;
 }
 
-@media(max-width: 1460px) {
+.menu li{
+	display:block;
+	padding:0px;
+}
+/* 
+.menu li:not(#b){
+border-right-style: none;
+border-right-width: 0px;
+} */
+
+.menu span{
+	margin:0em;
+	left:0em;
+}
+
+
+
+
+ @media(min-width: 768px) {
+
 	.menu ul{
-		display:block;
-		border-style:none;
-		border-width:0px;
-		padding: 0px;
+		border-style:dashed;
+		border-width:2px;
+		text-align: center;
+		font-size: 14px;
+		/* padding:2em; */
+		border-left: none;
+		border-right: none;
+		
+		
 	}
-
+	
 	.menu li{
-		display:block;
-		padding:0px;
+		display:inline-block;
+		padding: 2px 15px;
+		width: 25%;
 	}
 
-	.menu li:not(#b){
-	border-right-style: none;
-	border-right-width: 0px;
+	.menu {
+		width: 83.7%;
 	}
 
-	.menu span{
-		margin:0em;
-		left:0em;
+	.header-span{
+		float:right;
+		width: 84%;
 	}
 
+	.menu li:nth-child(1) , .menu li:nth-child(2) , .menu li:nth-child(3)  {
+		border-right-style: solid;
+		border-right-width: 1px;
+	}
 	
 
 }
 
 
-@media(max-width: 636px) {
+@media(min-width: 1024px) {
 
-	header{
-		width: 100%;
-		
-	}
-	.menu nav{
-		width:auto;
-		height: auto;
+	.menu{
+		width: 88%;
 	}
 
+	.header-span{
+		width: 88%;
+	}
 
-}
+
+
+	.menu li{
+		padding: 2px 20px;
+	}
+
+} 
