@@ -95,13 +95,14 @@ div .tshirt-details {
 }
 
 @media screen and (max-width: 768px) {
-	
+
 	.tshirt-folder {
 		background-size: cover;
 		background-position: 100% 100%;
 		width: 100%;
 		height: auto;
-		overflow: auto;
+		padding-bottom: 30px;
+		margin-top: 20px;
 	}
 
 	.tshirt-img {
@@ -114,18 +115,18 @@ div .tshirt-details {
 		display: block;
 		width: 100%;
 		padding-left: 3%;
-		
+
 	}
-	
+
 	.tshirt-votes img {
 	  width: 15%;
 	  position: absolute;
 	  top: 0;
 	  right: 45px;
 	}
-} 
+}
 
 @media screen and (min-width: 768px) {
-  
+
 }
 

@@ -10,15 +10,16 @@ body {
 }
 
 .articles__title {
-	text-transform: uppercase; 
+	text-transform: uppercase;
 	padding: 20px 0;
+	text-align: left;
 }
 .articles__title.highlight {
 	text-align: justify;
 }
 
 .articles__text {
-	text-align: justify;	
+	text-align: justify;
 	line-height: 1.5;
 }
 
